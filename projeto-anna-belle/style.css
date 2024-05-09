@@ -1,0 +1,116 @@
+@charset "URF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+ 
+    padding: 0;
+}
+
+/* Estilo padrão do site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('imagens/fundo.png');
+    
+}
+
+header > img {
+    display: block;
+    margin: auto;
+}
+
+
+
+nav {
+    text-align: left;
+    background-color: #A6A59C;
+    height: 10vh;
+    padding-top: 3.5vh;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0, 0, 109, 0.747);
+    padding-left: 10px;
+}
+
+.barra::after {
+    content: ' |';
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #D9D8C7;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+h1#especial {
+    color: #504f4b;
+}
+
+
+p {
+    text-indent: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+footer {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+/* ======================= */
+
+/* Estilo da campanha publicitária */
+
+main > img {
+    border: 10px solid #A6A59C;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+ 
+/*========================== */
+
+/*Formulário */
+
+form {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
