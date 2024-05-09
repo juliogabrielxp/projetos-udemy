@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*roda pé inicial */
+ #especial {
+    height: 5px;
+    background-color: #383F5D;
+ }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-left: 180px;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.barra::after {
+    content: ' |';
+    padding-left: 1px;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+main > h1 {
+    padding-top: 20px;
+}
+
+main > h2 {
+    padding-top: 20px;
+}
+
+ main > p {
+    text-indent: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+
+ol {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ /* estilo do formulário */
+form {
+    padding-top: 20px;
+}
+
+
+.formulario {
+    font-weight: 500;
+}
+
+#rodape-contato {
+    text-align: center;
+    margin-left: 30px;
+}
