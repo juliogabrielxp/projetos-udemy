@@ -13,7 +13,7 @@
 /* Estilo padrão do site */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('imagens/fundo.png');
+    background: #d2d2c1 url('imagens/fundo.png');
     
 }
 
@@ -38,6 +38,7 @@ a {
     text-decoration: none;
     font-weight: bolder;
     color: rgba(0, 0, 109, 0.747);
+    padding: 5px;
     padding-left: 10px;
 }
 
@@ -52,7 +53,7 @@ a:hover {
 }
 
 main {
-    background-color: #D9D8C7;
+    background-color: #e8e8d9;
     min-width: 300px;
     max-width: 900px;
     margin: auto;
