@@ -3,40 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Reset-->
-    <link rel="stylesheet" type="text/css" href="./css/reset-meyer.css">
-
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-
-    <title>TecBlog - O seu Blog de tecnologia</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TecBlog - o seu Blog de Tecnologia</title>
+    
 </head>
 <body>
+
     <header>
-        <h1>Tec<span class="branco">Blog</span></h1>
+        <h1>Tec<span>Blog</span></h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="jogos.html">Jogos</a>
-            <a href="celulares.html">Celulares</a>
-            <a href="informatica.html">Informática</a>
-            <a href="eletronicos.html">Eletrônicos</a>
+            <a href="index.html"  target="_self" rel="author">Home</a>
+            <a href="jogos.html" target="_self" rel="next">Jogos</a>
+            <a href="celulares.html" target="_self">Celulares</a>
+            <a href="informatica.html" target="_self">Informática</a>
+            <a href="eletronicos.html" target="_self">Eletrônicos</a>
         </nav>
     </header>
 
-    <main>
-        <div class="area-postagens">
-            <div class="postagem">
-                <h2>Titulo da postagem 1</h2>
-                <p>Postado 16 maio 2024</p>
-                <img width="620px" src="imagens/imagem1.jpg" alt="Notebook">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae esse. Dignissimos, voluptatibus fugit accusantium eveniet omnis tempore id eligendi eum doloremque nobis? Laboriosam dolorum velit numquam, debitis reiciendis voluptas.</p>
-                <a href="">Leia mais</a>
+    <div id="container">
+
+        <div id="conteudo">
+
+            <h1>Titulo da postagem 1</h1>
+            <p class="texto-data">Postado em 17 de maio 2024</p>
+            <img src="imagens/imagem1.jpg" alt="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aspernatur eveniet quidem deserunt sint necessitatibus, commodi asperiores est ratione dolores odit saepe quod qui adipisci accusantium dolorum eos magni quas?
+            <br><a href="">Leia mais</a></br>
+
             </div>
-        </div>
-        <div class="area-lateral">
+
+            <div id="postagens">
+                <h2>Postagens recentes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Molestiae, nihil!
+                <br><a href="">Leia mais</a></br></p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, sed.
+                <br><a href="">Leia mais</a></br>
+                </p>
 
         </div>
-    </main>
+        
+        <div id="clear">
 
+        </div>
+    </div>
     <footer>
         <p>Todos os direitos reservados</p>
     </footer>
