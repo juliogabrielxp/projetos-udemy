@@ -136,3 +136,20 @@ a {
     clear: both;
 }
 
+/* First mobile */
+
+@media (max-width:430px){
+
+     nav a {
+        display: block;
+   }
+    #postagens {
+        width:80px;
+       
+    }
+
+    #postagens h2 {
+        width: fit-content;
+    }
+
+}
