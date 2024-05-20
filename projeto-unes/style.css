@@ -5,23 +5,34 @@
     padding: 0px;
 }
 
+
 /*roda pé inicial */
  #especial {
     height: 5px;
     background-color: #383F5D;
+    margin-bottom: 10px;
+    width: 100%;
  }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    overflow-x: hidden;
 }
 
 header {
-    padding-left: 180px;
+    width: 100vw;
+}
+
+#header-logo {
+    padding-left: 10px;
 }
 
 nav {
-    padding-top: 10px;
+    text-align: left;
+    padding: 10px 0px 10px 15px ;
 }
+
 
 a {
     font-weight: bold;
@@ -37,26 +48,29 @@ a:hover {
     padding-left: 1px;
 }
 main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    padding-top: 20px;
+    
+}
+
+#imagem img {
+    width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 main > h1 {
-    padding-top: 20px;
+        text-align: center;
+        padding: 20px;
 }
 
 main > h2 {
-    padding-top: 20px;
+    padding: 20px;
 }
 
  main > p {
     text-indent: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: justify;
-    margin: 15px 0px;
+    
 }
 
 ol {
@@ -73,7 +87,7 @@ footer {
 
  /* estilo do formulário */
 form {
-    padding-top: 20px;
+    padding: 20px;
 }
 
 
