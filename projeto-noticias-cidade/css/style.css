@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: gray;
+}
+
+#header {
+    padding: 10px;
+    background-image: url('../imagens/fundo.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fff ;
+    padding: 10px;
+    
+}
+
+article {
+    border: 3px solid #f3f3f3;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* CARD */
+.card h1 {
+    background-color:#294c71;
+    padding: 5px;
+    color: #fff;
+}
+
+.card-body {
+    margin-top: 5px;
+}
+
+.card-body h2 {
+    background-color: #b10333;
+    color: #fff;
+    padding: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.card-body p {
+    margin-top: 2px;
+    text-align: left;
+}
+
+.link-card {
+    color: #de003e;
+}
+
+/*FIM CARD */
+
+/* ESTILO GLOBAL IMAGEM */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*FIM ESTILO GLOBAL IMAGEM */
+
+/* INICIO LISTA */
+.section-lista {
+    border: 3px solid #f3f3f3;
+}
+
+.section-lista h2 {
+    background-color: #294c71;
+    color: #fff;
+    padding: 10px;
+}
+
+
+.lista {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.lista-conteudo {
+    margin-left: 5px;
+}
+
+.lista-conteudo h3 {
+    color: #3e7ab9;
+}
+
+.section-lista ul li:hover {
+    background: #f3f3f3;
+	cursor: pointer;
+}
+
+/*FIM LISTA */
+
+/* FORM */
+
+.form {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.form label, .form button {
+    display: block;
+}
+
+.form button {
+    padding: 10px;
+    color: #FFF;
+    background-color: #de003e;
+    margin-top: 5px;
+    border: 1px solid black;
+
+}
+
+/* FIM FORM */
+
+/*CARD */
+
+.card .card-body ul {
+    list-style: none;
+}
+
+.card .card-body ul li {
+    padding: 5px;
+    border-bottom: 1px solid  #f3f3f3;
+}
+
+.card .card-body ul li:hover {
+   background-color: #f3f3f3;
+}
+
+.card .card-body ul li a {
+    text-decoration: none;
+}
+
+/*FIM CARD */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color:#294c71;
+    min-height: 200px;
+}
+
+#rodape {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
